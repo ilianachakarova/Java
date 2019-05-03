@@ -8,7 +8,7 @@ public class InternationalSoftUniada {
         Scanner scanner = new Scanner(System.in);
 
         LinkedHashMap <String, Map<String,Integer>>record = new LinkedHashMap<>();
-        String a = ""
+        String abv = ""
          String input = "";
         while(!"END".equals(input = scanner.nextLine())){
             String [] data = input.split(" -> ");
