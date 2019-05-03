@@ -8,8 +8,8 @@ public class InternationalSoftUniada {
         Scanner scanner = new Scanner(System.in);
 
         LinkedHashMap <String, Map<String,Integer>>record = new LinkedHashMap<>();
-        String a = ""
-         String input = "";
+        String text = "";
+        String input = "";
         while(!"END".equals(input = scanner.nextLine())){
             String [] data = input.split(" -> ");
             String countryName = data[0];
